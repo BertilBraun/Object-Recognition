@@ -1,0 +1,9 @@
+python3 yolo_video.py --input videos/car_chase_02.mp4 --output output/car_chase_02.avi --yolo yolo-coco
+
+python3 yolo_video.py --input videos/car_chase_01.mp4 --output output/car_chase_01.avi --yolo yolo-coco
+
+python3 yolo.py --image images/soccer.jpg --yolo yolo-coco
+
+python3 yolo.py --image images/dining_table.jpg --yolo yolo-coco
+
+python3 yolo.py --image images/baggage_claim.jpg --yolo yolo-coco
